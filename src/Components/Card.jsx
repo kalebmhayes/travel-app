@@ -6,8 +6,9 @@ function Card(props){
         <div className='card'>
             <img className='card-img' src={`images/${props.item.image}`}  />
             <div className='card-info'> 
-                <img src='images/pin.svg'/>
+                <img src='images/pin.svg'  />
                 <span className='small'>{props.item.country}</span>
+                <span className='small'><a className='gray' href='#'>click link to open Google Maps</a></span>
                 <h1 className='card-location'>{props.item.location}</h1>
                 <p className='date'>
                 {props.item.dates.startDate.day +` `}  

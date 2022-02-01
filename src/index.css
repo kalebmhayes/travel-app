@@ -3,25 +3,30 @@
 }
 
 .header {
-  background-color: pink;
+  background-color: #db1d65;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  height: 50px;
+  height: 70px;
   margin: 0;
+  padding: 1em;
 }
 
 .header-title {
-  padding: 1em;
+  padding: 0.5em;
   font-size: 2em;
   font-family: sans-serif;
+  color: white;
 }
 
 .card {
   display: flex;
   margin-top: 1em;
   margin-bottom: 1em;
+  background-color: #8398db;
+  border-radius: 10px;
+  padding: 1em;
 }
 
 .card-img {
@@ -32,7 +37,9 @@
 }
 
 .card-info {
+  color: white;
   width: 60%;
+  height: 200px;
   margin-left: 20px;
   font-family: sans-serif;
 }
@@ -40,7 +47,13 @@
 .small {
   font-size: 12px;
   margin-left: 3px;
+  margin-right: 4px;
 }
+.gray {
+  color: #3f668f;
+  text-decoration: none;
+}
+
 .card-location {
   font-size: 36px;
   padding: 0;
@@ -48,4 +61,10 @@
 }
 .date {
   font-weight: bold;
+}
+.entry {
+  overflow: hidden;
+  white-space: pre-line;
+  height: 50px;
+  text-overflow: ellipsis;
 }
